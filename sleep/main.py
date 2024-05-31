@@ -23,7 +23,7 @@ class Sleep(commands.Cog):
 
     @commands.command()
     @commands.is_owner()
-    async def sleep(self, ctx: commands.Context):
+    async def eep(self, ctx: commands.Context):
         """Put the bot to sleep"""
         self.sleeping = True
         await self.config.sleeping.set(True)
