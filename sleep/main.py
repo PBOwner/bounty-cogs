@@ -3,7 +3,7 @@ from redbot.core import commands, Config
 import discord
 
 
-class Sleep(commands.Cog):
+class eep(commands.Cog):
     """Put the bot to sleep"""
 
     def __init__(self, bot: Red):
@@ -44,7 +44,7 @@ class Sleep(commands.Cog):
         """Wake the bot up"""
         self.sleeping = False
         await self.config.sleeping.set(False)
-        await ctx.send("Awake.")
+        await ctx.send("Awoken.")
         # cog loading logic
         cogs = await self.config.loaded_cogs()
         if not cogs:
