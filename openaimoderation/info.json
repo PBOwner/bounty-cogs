@@ -1,0 +1,19 @@
+{
+    "name": "OpenAIModeration",
+    "short": "Demos the OpenAI Content Moderation API for images",
+    "description": "A cog that accepts an image URL or attachment, sends it to the OpenAI Moderation API using the omni-moderation-latest model, and displays the results in a formatted embed.",
+    "end_user_data_statement": "This cog does not store any user data persistently.",
+    "install_msg": "Thank you for installing OpenAIModeration! Please configure your API key with `[p]set api openai api_key <your_key>` before using.",
+    "author": [
+        "crayyy_zee"
+    ],
+    "required_cogs": {},
+    "requirements": [],
+    "tags": [
+        "openai",
+        "moderation",
+        "image",
+        "safety"
+    ],
+    "type": "COG"
+}
